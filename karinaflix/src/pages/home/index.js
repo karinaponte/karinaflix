@@ -13,7 +13,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoDescription={"Memories é uma canção da banda holandesa de metal e rock sinfônico Within Temptation do seu terceiro álbum de estúdio, The Silent Force. O vídeo da canção mostra uma Sharon den Adel idosa que volta a sua antiga casa, agora à venda. Quando adentra seu velho lar, ela se transforma em uma mulher jovem novamente e a casa volta a ser como era antes."}
       />
 
       <Carousel
