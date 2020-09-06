@@ -49,7 +49,6 @@ function CadastroVideo() {
       }}
       >
 
-
         <FormField
           label="Título do Vídeo"
           type="text"

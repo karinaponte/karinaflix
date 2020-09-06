@@ -21,7 +21,6 @@ function Home() {
 
   // http://localhost:8080/categorias?_embed=videos
 
-
   return (
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
@@ -33,7 +32,8 @@ function Home() {
               <BannerMain
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
+                videoDescription={"Within Temptation é uma banda de Metal Sinfônico dos Países Baixos, formada em 1995 pelo guitarrista Robert Westerholt e pela vocalista Sharon den Adel."}
+                // videoDescription={dadosIniciais[0].videos[0].description}
               />
               <Carousel
                 ignoreFirstVideo
