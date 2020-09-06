@@ -3,6 +3,7 @@ import PageDefault from "../../../components/PageDefault"
 import { Link } from 'react-router-dom';
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
+import useForm from "../../../hooks/useForm";
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -11,25 +12,14 @@ function CadastroCategoria() {
     cor: ""
   }
 
+  const { HandleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor){
-    setValues({
-      ...values,
-      [chave]: valor
-    })    
-  }
-
-  function HandleChange(event) {
-    setValue(
-      event.target.getAttribute("name"),
-      event.target.value
-    );  
-  }
 
   useEffect(() => {
-    const url = "http://localhost:8080/categorias";
+    const url = window.location.hostname.includes("localhost")
+    ? "http://localhost:8080/categorias" 
+    : "https://karinaflix.herokuapp.com/categorias";
 
     fetch(url)
       .then(async (res) => {
@@ -94,7 +84,7 @@ function CadastroCategoria() {
             values
           ]);
 
-          setValues(valoresIniciais);
+          clearForm();
 
 
         }}>
@@ -134,8 +124,8 @@ function CadastroCategoria() {
         <ul>
           {categorias.map( (categoria) => {
             return (
-              <li key={`${categoria.nome}`}>
-                {categoria.nome}
+              <li key={`${categoria.titulo}`}>
+                {categoria.titulo}
               </li>
             )
           })}

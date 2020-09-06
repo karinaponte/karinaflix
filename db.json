@@ -1,40 +1,312 @@
 {
-    "categorias": [
-        {
-        "id": 1,    
-        "nome": "Músicas",
-        "descricao": "Minhas Músicas Favoritas",
-        "cor": "#9932cc"
-        },
-        {
-        "id": 2,    
-        "nome": "Filmes",
-        "descricao": "Meus Filmes Favoritos",
-        "cor": "#a346d1"
-        },
-        {
-        "id": 3,    
-        "nome": "Séries",
-        "descricao": "Minhas Séries Favoritas",
-        "cor": "#ad5ad6"
-        },
-        {
-        "id": 4,    
-        "nome": "Animes",
-        "descricao": "Meus Animes Favoritos",
-        "cor": "#b76fdb"
-        },
-        {
-        "id": 5,    
-        "nome": "Desenhos Animados",
-        "descricao": "Meus Desenhos Animados Favoritos",
-        "cor": "#c184e0"
-        },
-        {
-        "id": 6,    
-        "nome": "Jogos",
-        "descricao": "",
-        "cor": "#cc98e5"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Músicas",
+      "link": "#",
+      "cor": "#9932cc",
+      "link_extra": {
+        "text": "Minhas Músicas Favoritas",
+        "url": "#"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Filmes",
+      "cor": "#a346d1",
+      "link_extra": {
+        "text": "Meus Filmes Favoritos",
+        "url": "#"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Séries",
+      "cor": "#ad5ad6",
+      "link_extra": {
+        "text": "Minhas Séries Favoritas",
+        "url": "#"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Animes",
+      "cor": "#b76fdb",
+      "link_extra": {
+        "text": "Meus Animes Favoritos",
+        "url": "#"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Desenhos Animados",
+      "cor": "#c184e0",
+      "link_extra": {
+        "text": "Meus Desenhos Animados Favoritos",
+        "url": "#"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Jogos",
+      "cor": "#cc98e5"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Within Temptation - Memories",
+      "url": "https://www.youtube.com/watch?v=gsQIOgkZt68"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Within Temptation - Stand My Ground",
+      "url": "https://www.youtube.com/watch?v=98xh5Hb9QAM"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Faun - Walpurgisnacht",
+      "url": "https://www.youtube.com/watch?v=nLgM1QJ3S_I"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Faun - Diese kalte Nacht",
+      "url": "https://www.youtube.com/watch?v=zr8d9sXioj4"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Eluveitie - Inis Mona",
+      "url": "https://www.youtube.com/watch?v=iijKLHCQw5o"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Eluveitie - Lvgvs",
+      "url": "https://www.youtube.com/watch?v=jMKykGYsmFY"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Omnia - Fee Ra Huri",
+      "url": "https://www.youtube.com/watch?v=J56VVtlZCGE"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Skáld - Rún",
+      "url": "https://www.youtube.com/watch?v=s9NIBZfVBW4"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Star Wars: Episode IV - A New Hope",
+      "url": "https://www.youtube.com/watch?v=9gvqpFbRKtQ"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Star Wars: Episode II - Attack of the Clones",
+      "url": "https://www.youtube.com/watch?v=gYbW1F_c9eM"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+      "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "The Lord of the Rings: The Return of the King",
+      "url": "https://www.youtube.com/watch?v=r5X-hFf6Bwo"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Braveheart",
+      "url": "https://www.youtube.com/watch?v=1cnoM8EiGGU"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Interestellar",
+      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Pride & Prejudice",
+      "url": "https://www.youtube.com/watch?v=1dYv5u6v55Y"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "Fight Club",
+      "url": "https://www.youtube.com/watch?v=qtRKdVHc-cE"
+    },
+    {
+      "id": 17,
+      "categoriaId": 2,
+      "titulo": "The Dark Crystal",
+      "url": "https://www.youtube.com/watch?v=9PTjIWyRmls"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Dark",
+      "url": "https://www.youtube.com/watch?v=6EhDKaWLJgg"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Penny Dreadful",
+      "url": "https://www.youtube.com/watch?v=YFXHfEqMcis"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Salem",
+      "url": "https://www.youtube.com/watch?v=eQIAN4pZ3gE"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "The Dark Crystal: Age of Resistance",
+      "url": "https://www.youtube.com/watch?v=a3_owZfYVR8"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Sailor Moon",
+      "url": "https://www.youtube.com/watch?v=ekgSie3qxNM"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Tsubasa Reservoir Chronicles",
+      "url": "https://www.youtube.com/watch?v=OPOO3EUkUT8"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Sakura Card Captors",
+      "url": "https://www.youtube.com/watch?v=P7xuOiOfLq0"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Magic Knight Rayearth",
+      "url": "https://www.youtube.com/watch?v=NrnKLv2dsLM"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "Fruits Basket",
+      "url": "https://www.youtube.com/watch?v=6M7f41OJfcM"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "O Rei Leão",
+      "url": "https://www.youtube.com/watch?v=rHiHRhbTv-Q"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "O Príncipe Dragão",
+      "url": "https://www.youtube.com/watch?v=ocaFUl-pQ4E"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "Cavalo de Fogo",
+      "url": "https://www.youtube.com/watch?v=5J8jY-exXTY"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Pokémon",
+      "url": "https://www.youtube.com/watch?v=-PlAg8R9TG4"
+    },
+    {
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "A Família Addams",
+      "url": "https://www.youtube.com/watch?v=IokBKvFiCvM"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Pokémon Go",
+      "url": "https://www.youtube.com/watch?v=2sj2iQyBTQs"
+    },
+    {
+      "id": 33,
+      "categoriaId": 6,
+      "titulo": "Hearthstone",
+      "url": "https://www.youtube.com/watch?v=SCq4WmfRPyg"
+    },
+    {
+      "id": 34,
+      "categoriaId": 6,
+      "titulo": "The Lion King",
+      "url": "https://www.youtube.com/watch?v=AsgZgjdRNJw"
+    },
+    {
+      "id": 35,
+      "categoriaId": 6,
+      "titulo": "MDK",
+      "url": "https://www.youtube.com/watch?v=cMPvRI_04ps"
+    },
+    {
+      "id": 36,
+      "categoriaId": 6,
+      "titulo": "Commander Keen 4",
+      "url": "https://www.youtube.com/watch?v=AJC7De4OduM"
+    },
+    {
+      "id": 37
+    },
+    {
+      "id": 38
+    },
+    {
+      "id": 39
+    },
+    {
+      "id": 40
+    },
+    {
+      "id": 41
+    },
+    {
+      "id": 42
+    },
+    {
+      "id": 43
+    },
+    {
+      "id": 44
+    },
+    {
+      "id": 45
+    },
+    {
+      "id": 46
+    },
+    {
+      "id": 47
+    },
+    {
+      "titulo": "Avantasia - Lost in Space",
+      "url": "https://www.youtube.com/watch?v=o26SlmROH5Q",
+      "categoriaId": 1,
+      "id": 48
+    }
+  ]
 }
